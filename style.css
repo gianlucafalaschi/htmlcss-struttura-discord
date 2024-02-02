@@ -1,4 +1,4 @@
-/* reset */
+/* RESET */
 
 * {
     margin: 0;
@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 
-/* header */
+/* HEADER */
 
 header {
-    display: flex;
-    background-color:#ADD8E6;
+     display: flex; 
+     background-color:#ADD8E6;
 }
 
 .top-bar {
@@ -19,6 +19,10 @@ header {
     background-color:#DAA520;
     margin: 10px auto; 
     padding: 8px;   
+}
+
+.box-links li {
+    list-style-type: none;
 }
 
 .box-logo {
@@ -43,4 +47,22 @@ header {
     background-color: bisque;
     border: dashed 1px black;
 }
+
+.hero {
+    background-color: #00008B;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* hero */
+
+.hero-box{
+    align-self: center;
+    background-color: #EE82EE;
+    width: 60%;
+    height: 300px;
+}
+
 
