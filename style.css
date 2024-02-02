@@ -5,3 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color:#ADD8E6;
+    min-height: 50px;
+}
+
+.top-bar {
+    max-width: 1180px;
+    background-color:#DAA520;
+    height: 20px;
+    margin: auto;
+}
