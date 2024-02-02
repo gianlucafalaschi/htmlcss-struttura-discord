@@ -65,4 +65,23 @@ header {
     height: 300px;
 }
 
+/* GENERAL */
 
+.container {
+    max-width: 1180px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    background-color: #EE82EE;
+}
+
+
+.common-box{
+    max-width: 1180px;
+}
+
+.box-left {
+    height:350px;
+    background-color:#1E90FF;
+    width: 100%;
+}
