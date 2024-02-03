@@ -73,7 +73,7 @@ main .hero-box{
 
 /* first section */
 
-.first-section{
+.first-section, .second-section, .third-section{
     display: flex;
     min-height:200px;
     justify-content: center;
@@ -114,4 +114,8 @@ main .hero-box{
 
 .bgpink{
     background-color: #ECB2BC;
+}
+
+.bggray{
+    background-color: #D3D3D3;
 }
