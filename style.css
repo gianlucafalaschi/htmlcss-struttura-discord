@@ -149,6 +149,13 @@ main .hero-box{
     background-color: #20B2AA;
 }
 
+.bglightgreen{
+    background-color:#7FFFD4;
+}
+
+.bgmediumpink{
+    background-color:#FFB6C1;
+}
 
 /* FOOTER */
 
@@ -156,8 +163,36 @@ main .hero-box{
     display: flex;
     min-height:200px;
     justify-content: center;
-    padding: 8px 0 25px 0;
+    padding: 8px 0 28px 0;
+    border-bottom: 1px solid  #EFEFEF ;
 }
+
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 25px 0 0 0;
+    border-bottom: 1px solid  #EFEFEF ;
+}
+
+.bottom-footer .container-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    min-height: 5px;
+    padding: 15px 0 5px 0;
+}
+
+.bottom-logo {
+    padding: 6px 10px;
+    border: 1px dashed black;
+}
+
+.bottone{
+    padding: 6px 10px;
+    border: 1px dashed black;
+}
+
 
 .col30{
     width: 30%;
@@ -175,6 +210,7 @@ main .hero-box{
 .col20{
     width: 20%;
     height: 100%;
-    border: 1px dashed black;
+    border: 1px dashed white;
 
 }
+
