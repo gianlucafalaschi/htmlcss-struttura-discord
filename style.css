@@ -136,3 +136,45 @@ main .hero-box{
 .bggreen{
     background-color:#228B22 ;
 }
+
+.bgdark {
+    background-color: #23272A;
+}
+
+.bgdarkpink{
+    background-color: #F08080;
+}
+
+.bgaqua {
+    background-color: #20B2AA;
+}
+
+
+/* FOOTER */
+
+.upper-footer{
+    display: flex;
+    min-height:200px;
+    justify-content: center;
+    padding: 8px 0 25px 0;
+}
+
+.col30{
+    width: 30%;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.col80{
+    width: 80%;
+    height: 100%;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.col20{
+    width: 20%;
+    height: 100%;
+    border: 1px dashed black;
+
+}
