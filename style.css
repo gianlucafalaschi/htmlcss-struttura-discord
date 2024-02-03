@@ -185,11 +185,13 @@ main .hero-box{
 
 .bottom-logo {
     padding: 6px 10px;
+    cursor: pointer;
     border: 1px dashed black;
 }
 
 .bottone{
     padding: 6px 10px;
+    cursor: pointer;
     border: 1px dashed black;
 }
 
