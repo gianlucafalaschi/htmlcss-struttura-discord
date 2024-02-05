@@ -69,7 +69,7 @@ main .hero {
 main .hero-box{
     background-color: #EE82EE;
     max-width: 920px;
-    width: 100%;
+    width: 80%;
     height: 350px;
     border: 1px dashed black;
 }
