@@ -10,7 +10,8 @@
 
 .container-top{
     min-height: 5px;
-    width: 1180px;
+    max-width: 1180px;
+    width: 100%;
     background-color:#DAA520;
     display: flex;
     padding: 10px 8px;
@@ -39,7 +40,10 @@ header {
     width: 60%;
     text-align: center;
     border: 1px dashed black;
+}
 
+.links a {
+    text-decoration: none;
 }
 
 .container-top .login{
@@ -64,7 +68,8 @@ main .hero {
 
 main .hero-box{
     background-color: #EE82EE;
-    min-width: 60%;
+    max-width: 920px;
+    width: 100%;
     height: 350px;
     border: 1px dashed black;
 }
@@ -88,7 +93,8 @@ main .hero-box{
 }
 
 .container-main {
-    width: 1180px;
+    max-width: 1180px;
+    width: 100%;
     min-height:400px ;
     background-color: gray;
     display: flex;
